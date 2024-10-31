@@ -1,0 +1,106 @@
+
+.rezgo_reminders_settings .field_frame {
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	margin:20px 10px;
+	width:900px;
+	padding-bottom:10px;
+}
+.rezgo_reminders_settings input {
+	height:26px;
+}
+.rezgo_reminders_settings .button-primary {
+	height:auto !important;
+}
+.rezgo_reminders_settings .field_frame .field_contents {
+	padding:10px;
+}
+.rezgo_reminders_settings legend {
+	font-weight:500;
+	font-size:15px;
+	padding: 10px;
+	color:#FFF;
+	width:880px;
+	background-image: linear-gradient(to bottom, #2EA2CC 0px, #0074A2 100%);
+	background-repeat: repeat-x;
+	border-bottom:1px solid #DDD;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/* form styling with definition list */
+.rezgo_reminders_settings label {
+	font-weight:bold;
+	font-size:14px;
+	color:#333;
+	padding-top:8px;
+}
+
+dl {
+	clear:both;
+}
+dt {
+	width:12em;
+	height:2em;
+	text-align:right;
+	float:left;
+	clear:left;
+	padding-right:5px;
+}
+dd {
+	margin-left:5px;
+	overflow:hidden;
+	clear:right;
+	height:1%;
+}
+.email_notes {
+	/*width:50%;*/
+	font-size:12px;
+}
+
+#submitKey_successDiv{position:absolute;right:0;top:0;background-color:green;height:100px;border-radius: 15px;display:none}
+#submitKey_failedDiv{position:absolute;right:0;top:0;background-color:pink;height:100px;border-radius: 5px;display:none}
+.submitKey_Icon{float:left;margin-top:20px;margin-left:20px}
+.submitKey_Msg{float:left;margin-top:20px;margin-left:10px;margin-right:10px;}
+#lastUpdatedDiv{color:green;display:none}
+#company_website{font-size: 1.5em; text-decoration: none; color:black}
+
+.rezgoreminders_log_table{width:100%}
+.rezgoreminders_log_table td{border:1px solid #999}
+.rezgoreminders_log_table th {
+	color:#FFF;
+	background-image: linear-gradient(to bottom, #2EA2CC 0px, #0074A2 100%);
+}
+.rezgoreminders_log_sentdate{width:100px}
+.rezgoreminders_log_email{width:100px}
+.rezgoreminders_log_date{width:100px}
+.rezgoreminders_log_tour{width:100px}
+.rezgoreminders_log_trans_num{width:100px}
+
+.rezgoreminders_run_now_layer{clear:both;background:#FFCC33;border:thin #999 solid;padding:10px;padding-left:35px;}
+.rezgoreminders_reminder_deleted{background-color:red;height:30px; font-size: 1.5em; border-radius: 15px; border:1px; text-align:center; width:90%; vertical-align:middle}
+.rezgoreminders_reminders_table{width:100%}
+.rezgoreminders_reminders_table td{border:1px solid #999}
+.rezgoreminders_reminders_table th {
+	color:#FFF;
+	background-image: linear-gradient(to bottom, #2EA2CC 0px, #0074A2 100%);
+}
+.rezgoreminders_reminders_odd {background-color:lightgray}
+.rezgoreminders_reminders_even {background-color:white}
+.rezgo_reminder_status {text-align:center}
+.rezgo_reminder_delete {text-align:center}
+
+
+#submitAddReminder {/*float:right*/}
+#rezgo_text{width:90%;height:150px;border-radius: 5px; border:1px #999 solid}
+#rezgo_html{width:90%;height:250px;border-radius: 5px; border:1px #999 solid}
+#rezgo_notification_subject{border-radius: 5px; border:1px #999 solid}
+#rezgo_tour_uid{width:50%}
+#rezgo_loader{color:red;font-size: 1.2em;display:none;text-decoration: blink}
+#rezgo_saved_success{background-color:green; display:none;height:40px; font-size: 1.5em; border-radius: 5px; border:1px; text-align:center; width:90%; vertical-align:middle; margin-top:20px;margin-bottom:20px;}
